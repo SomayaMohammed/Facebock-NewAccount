@@ -1,0 +1,102 @@
+*{
+    --wbkit-box-sizing:border-box;
+    --moz-box-sizing:border-box;
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+    
+    }
+    .container{
+        background-color: #ddd;
+        width: 100%;
+        text-align: right;
+        padding: 30px;
+    }
+    .box{
+        width: 500px;
+        background-color: white;
+        padding: 10px;
+        margin: auto;
+        height: 550px;
+        text-align: right;
+    }
+    .box   h1 {
+        font-weight: bold;
+        position: relative;
+        margin: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .box h1 + p{
+        margin: 5px;
+    } 
+    .box hr {
+        color: rgb(0 0 0/70%);
+        margin-bottom: 10px;
+    }
+    
+    .box input {
+        padding: 12px;
+        margin: 5px; 
+        border-radius: 5px;
+    } 
+    .box .one ,  .box .two{
+        width: 40%;
+    }
+
+     .box input[type="email"],input[type="password"]{
+        width: 100%;
+    }
+    .box input[type="text"],input[type="email"],input[type="password"]{
+       
+        background-color:rgb(245 246 247 /1);
+    }
+    .box select  {
+        width: 30%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-color: #ddd;
+        border-radius: 5px;
+    }
+     .box .gender{
+        width: 130px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        
+     }
+     #femal{
+        margin-left: 338px;
+        margin-top: -30px;
+     }
+     #male{
+        margin-left: 195px;
+        margin-top: -30px;
+     }
+      #other{
+        margin-left: 50px;
+        margin-top: 10px;
+     }
+     .box .text1 , .box .text2{
+        padding: 5px;
+        margin-top: 10px;
+        font-size: small;
+        color: rgb(0 0 0/70%);
+     }
+     #link1,#link2,#link3,#link4{
+        text-decoration: none;
+     }
+     #link1:hover,#link2:hover,#link3:hover,#link4:hover{
+        border-bottom: 1px solid #0743e7 ;
+     }
+     .login{
+        width: 50%;
+        color: white;
+        background-color: #3fb027;
+        border: none;
+        font-weight: 900;
+        font-size: large;
+        margin-top: 38px;
+        margin-right: 92px;
+        
+     }
